@@ -54,7 +54,7 @@ class Pacote(var cod: String?) {
                         if (validProducts.contains(stringList[4].toInt())) {
                             if (stringList[4].toInt() == 1 && stringList[0].toInt() in 201..299) {
                                 this.status = false
-                                println("|| => Entrada invalida, não é possível entregar este produto nesta região")
+                                println("|| => Entrada invalida, não é possível entregar este produto desta região")
                             } else {
                                 this.status = true
                                 this.codOrigem = stringList[0]
